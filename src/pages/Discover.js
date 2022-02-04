@@ -23,7 +23,7 @@ function Discoverpage() {
             </Link>
           </div>
           <div className="div2d">
-          <Link to="/MHA1Xi">
+          <Link to="/SHA5Xi">
               <Card
               MatchScore="94%"
               Name="CarbonRecap "
@@ -37,7 +37,7 @@ function Discoverpage() {
             
           </div>
           <div className="div3d">
-              <Link to ="/">
+              <Link to ="/JPF5SXi">
               <Card
               MatchScore="90%"
               Name="VShop"
@@ -55,7 +55,7 @@ function Discoverpage() {
       <div className="Setter">
         <div className="parentd">
           <div className="div1d">
-            <Link to="/MHA1Xi">
+            <Link to="/UIOPX6">
               <Card
                 MatchScore="90%"
                 Name="SodiEnergy"
@@ -68,7 +68,7 @@ function Discoverpage() {
             </Link>
           </div>
           <div className="div2d">
-          <Link to="/MHA1Xi">
+          <Link to="/NYJHX7">
               <Card
               MatchScore="89%"
               Name="Tokenz"
@@ -82,13 +82,13 @@ function Discoverpage() {
             
           </div>
           <div className="div3d">
-              <Link to ="/">
+              <Link to ="/POFU8F">
               <Card
               MatchScore="87%"
               Name="Gymtraq"
               Seeking="$30M for 5%"
               Round="Series B"
-              Posted="Isabella Ullman CCO at Gymtraq"
+              Posted="Isabelle Ullman CCO at Gymtraq"
               pfp={require("./images/Isabelle.jpg")}
               background={require("./images/Gymtraq.jpg")}
             />
@@ -100,9 +100,9 @@ function Discoverpage() {
       <div className="Setter">
         <div className="parentd">
           <div className="div1d">
-            <Link to="/MHA1Xi">
+            <Link to="/HIB5FX">
               <Card
-                MatchScore="87%"
+                MatchScore="77%"
                 Name="Elevatus Devices "
                 Seeking="$50M for 5%"
                 Round="Series C"
@@ -113,9 +113,9 @@ function Discoverpage() {
             </Link>
           </div>
           <div className="div2d">
-          <Link to="/MHA1Xi">
+          <Link to="/FFST6V">
               <Card
-              MatchScore="87%"
+              MatchScore="75%"
               Name="FastestFood"
               Seeking="$400k for 5%"
               Round="Pre-seed"
@@ -127,9 +127,9 @@ function Discoverpage() {
             
           </div>
           <div className="div3d">
-              <Link to ="/">
+              <Link to = "/RUTA5X">
               <Card
-              MatchScore="01%"
+              MatchScore="72%"
               Name="WellPlayed"
               Seeking="$10M for 15%"
               Round="Series B"
