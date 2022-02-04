@@ -1,6 +1,8 @@
 import { Widget } from 'react-chat-widget';
 
 import 'react-chat-widget/lib/styles.css';
+import Searchbar from '../components/Searchbar';
+
 
 function MessengerPage() {
 
@@ -11,11 +13,10 @@ function MessengerPage() {
 
     return (
       <div className="PageA">
+        <Searchbar/>
+        
       <div className="Setter">
-        <Widget
 
-        handleNewUserMessage={handleNewUserMessage}
-      />
       </div>
       </div>
   

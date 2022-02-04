@@ -8,13 +8,17 @@ import Discoverpage from "./pages/Discover";
 import MessengerPage from "./pages/Messenger";
 import MHA1Xi from "./pages/MHA1Xi";
 
+import "./index.css";
+import Landingpage from "./pages/landing/landing";
+
 function App() {
   return (
     <div>
-      <Searchbar />
       <Routes>
+        <Route index element={<Landingpage />} />
+        <Route path="*" element={<Landingpage />} />
         <Route path="/" element={<Navbar />}>
-        <Route index element={<Discoverpage />} />
+          <Route path="Discover" element={<Discoverpage />} />
           <Route path="Investments" element={<Dashboardpage />} />
           <Route path="Map" element={<MapPage />} />
           <Route path="MessengerPage" element={<MessengerPage />} />
@@ -23,7 +27,7 @@ function App() {
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
-          <Route path="*" element={<MapPage />} />
+
         </Route>
       </Routes>
     </div>

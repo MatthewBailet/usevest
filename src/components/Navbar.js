@@ -1,3 +1,5 @@
+
+
 import { useEffect } from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
@@ -24,15 +26,15 @@ function Navbar(props) {
         <nav className="nav">
           <div>
             <div className="nav__brand">
-              <a href="#" className="nav__logo">
+              <a href="/Discover" className="nav__logo">
                 <img
                   className="logopic"
-                  src={require("./images/vest.io.png")}
+                  src={require("./images/vestlogo.png")}
                 />
               </a>
             </div>
             <div className="nav__list">
-              <Link to="/">
+              <Link to="Discover">
                 <div className="nav__link collapse">
                   <ion-icon name="archive-outline" className="nav__icon" />
                   <span className="nav__name">Discover</span>
@@ -72,17 +74,13 @@ function Navbar(props) {
               </a>
             </div>
           </div>
-          <a href="#" className="nav__link">
+          <a href="/" className="nav__link">
             <ion-icon name="log-out-outline" className="nav__icon" />
             <span className="nav__name">Log Out</span>
           </a>
         </nav>
       </div>
 
-      <script
-        src="/vest/src/components/NavbarExpander.js"
-        type="text/javascript"
-      />
       <Outlet />
     </div>
   );

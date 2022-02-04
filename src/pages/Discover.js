@@ -1,12 +1,15 @@
 import Card from "../components/card";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Searchbar from "../components/Searchbar";
+
 
 function Discoverpage() {
   return (
     <div className="PageA">
+      <Searchbar/>
       <div className="Setter">
         <div className="parentd">
-          <div className="div1d">
+          <div className="div1d"> 
             <Link to="/MHA1Xi">
               <Card
                 MatchScore="95%"
@@ -126,7 +129,7 @@ function Discoverpage() {
           <div className="div3d">
               <Link to ="/">
               <Card
-              MatchScore="85%"
+              MatchScore="01%"
               Name="WellPlayed"
               Seeking="$10M for 15%"
               Round="Series B"
@@ -139,8 +142,7 @@ function Discoverpage() {
           </div>
         </div>
       </div>
-      
-      
+
     </div>
   );
 }
