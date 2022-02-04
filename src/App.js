@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Searchbar from "./components/Searchbar";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+
+import Dashboardpage from "./pages/Dashboard";
+import MapPage from "./pages/Map";
+import Discoverpage from "./pages/Discover";
+import MessengerPage from "./pages/Messenger";
+import MHA1Xi from "./pages/MHA1Xi";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Searchbar />
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+        <Route index element={<Discoverpage />} />
+          <Route path="Investments" element={<Dashboardpage />} />
+          <Route path="Map" element={<MapPage />} />
+          <Route path="MessengerPage" element={<MessengerPage />} />
+          <Route path="MHA1Xi" element={<MHA1Xi />} />
+
+          {/* Using path="*"" means "match anything", so this route
+                acts like a catch-all for URLs that we don't have explicit
+                routes for. */}
+          <Route path="*" element={<MapPage />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
