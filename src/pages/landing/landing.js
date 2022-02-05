@@ -14,7 +14,7 @@ function Landingpage() {
       document.body.removeChild(scriptTag);
     };
   }, []);
-  
+
   return (
     <div>
       <meta charSet="UTF-8" />
@@ -32,7 +32,11 @@ function Landingpage() {
           </a>
         </div>
         <a href="/Discover" className="login">
-          Log-in <ion-icon name="chevron-forward-outline" className="Chairtester"></ion-icon>
+          Log-in{" "}
+          <ion-icon
+            name="chevron-forward-outline"
+            className="Chairtester"
+          ></ion-icon>
         </a>
       </div>
       <container>
@@ -41,17 +45,16 @@ function Landingpage() {
             <div className="child flex-child">
               <img src={require("./images/vestlogo.png")} className="logot" />
               <h2 className="header2">
-                <span className="spanning">Test </span>
-                <span className="spanning">for </span>
-                <span className="spanning">where </span>
-                <span className="spanning">slogan </span>
-                <span className="spanning">will</span>
-                <span className="spanning">evntually</span>
-                <span className="spanning">be</span>
-                <span className="spanning">going.</span>
+                <span className="spanning">Effective </span>
+                <span className="spanning">partnerships, </span>
+                <span className="spanning">impressive </span>
+                <span className="spanning">results. </span>
               </h2>
-              <a href="index.html">
-                <div className="getstarted">Get started <ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <a href="/Discover">
+                <div className="getstarted">
+                  Get started{" "}
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
               </a>
             </div>
             <div className="child flex-child">
@@ -77,25 +80,35 @@ function Landingpage() {
       <container>
         <div className="parentabt" id="parentabt">
           <div className="div1abt">
-            <h2 className="header3"> <ion-icon name="chatbubbles-outline" className="landingicon"></ion-icon>    Connect</h2>
-            <p
-                className="peter peter2 peter3" >
-                Find a dynamic team
-              </p>
+            <h2 className="header3">
+              {" "}
+              <ion-icon
+                name="chatbubbles-outline"
+                className="landingicon"
+              ></ion-icon>{" "}
+              Connect
+            </h2>
+            <p className="peter peter2 peter3">Find a dynamic team</p>
           </div>
           <div className="div2abt">
-            <h2 className="header3"><ion-icon name="layers-outline" className="landingicon"></ion-icon>    Compliment</h2>
-            <p
-                className="peter peter2 peter3" >
-                Benefit from synergies 
-              </p>
+            <h2 className="header3">
+              <ion-icon
+                name="layers-outline"
+                className="landingicon"
+              ></ion-icon>{" "}
+              Compliment
+            </h2>
+            <p className="peter peter2 peter3">Benefit from synergies</p>
           </div>
           <div className="div3abt">
-          <h2 className="header3"><ion-icon name="trending-up-outline" className="landingicon"></ion-icon>  Grow</h2>
-          <p
-                className="peter peter2 peter3" >
-                Reap the rewards 
-              </p>
+            <h2 className="header3">
+              <ion-icon
+                name="trending-up-outline"
+                className="landingicon"
+              ></ion-icon>{" "}
+              Grow
+            </h2>
+            <p className="peter peter2 peter3">Reap the rewards</p>
           </div>
           <div className="div4abt aboutsection">
             <h1 className="headerone" id="aboutplease">
@@ -130,7 +143,7 @@ function Landingpage() {
                 className="header2"
                 style={{ padding: "50px", color: "rgb(41, 41, 41)" }}
               >
-               <ion-icon name="wallet-outline"></ion-icon> Investors
+                <ion-icon name="wallet-outline"></ion-icon> Investors
               </h2>
               <p
                 className="peter peter2"
@@ -140,9 +153,8 @@ function Landingpage() {
                   marginTop: "-20px",
                 }}
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                ipsam expedita cum ullam tenetur quis quas, error necessitatibus
-                perferendis.
+                Gain access to innovative ideas and passionate entrepreneurs
+                looking for funding and mentorship from experienced investors
               </p>
             </div>
             <div className="div2b">
@@ -150,7 +162,7 @@ function Landingpage() {
                 className="header2"
                 style={{ padding: "50px", color: "rgb(41, 41, 41)" }}
               >
-              <ion-icon name="person-outline"></ion-icon>  Entrepeneurs
+                <ion-icon name="person-outline"></ion-icon> Entrepeneurs
               </h2>
               <p
                 className="peter peter2"
@@ -160,9 +172,8 @@ function Landingpage() {
                   marginTop: "-20px",
                 }}
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                ipsam expedita cum ullam tenetur quis quas, error necessitatibus
-                perferendis.
+                Pitch your ideas to engaged investors and find a partner that
+                will help your business grow
               </p>
             </div>
           </div>
@@ -213,10 +224,17 @@ function Landingpage() {
                   fontSize: "13px",
                   paddingBottom: "50px",
                   paddingRight: "10px",
+                  textAlign: "center",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita est labore, velit doloribus
+                "1600 on Lichess"
+                <br></br>
+                <a
+                  style={{ color: "#006AFF" }}
+                  href="https://www.linkedin.com/in/ryan-stewart-476a98225"
+                >
+                  <b>LinkedIn</b>
+                </a>
               </p>
             </div>
             <div className="div2tt">
@@ -255,8 +273,8 @@ function Landingpage() {
                   paddingRight: "10px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita est labore, velit doloribus
+                The creation of the Vest idea has been an exciting experience
+                that has reaffirmed my interest in the Venture capital space.
               </p>
             </div>
             <div className="div3tt">
@@ -295,8 +313,7 @@ function Landingpage() {
                   paddingRight: "10px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita est labore, velit doloribus
+                The life of the team at vest with a love in investing.
               </p>
             </div>
             <div className="div4tt">
@@ -335,8 +352,8 @@ function Landingpage() {
                   paddingRight: "10px",
                 }}
               >
-                Building Vest has been one of the most education and interesting experiences of my life, allowing me express my
-                passion for both design and building things.
+                I didn't build Vest just to win a competition. Sometimes you
+                build things because you like building things.
               </p>
             </div>
           </div>

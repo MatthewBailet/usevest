@@ -3,7 +3,7 @@ import Searchbar from "../components/Searchbar";
 
 function Dashboardpage(props) {
   return (
-    <div className="PageA">
+    <div className="PageAB">
       <Searchbar />
       <div className="Setter">
         <h1>My Investments</h1>

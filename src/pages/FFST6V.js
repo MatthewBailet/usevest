@@ -16,7 +16,7 @@ function Businessprofile(props) {
     };
   }, []);
   return (
-    <div className="PageA">
+    <div className="PageAB">
       <Searchbar />
       <div className="Setter">
         <a href="/MessengerPage">
@@ -55,17 +55,27 @@ function Businessprofile(props) {
                 <div class="div2bottoms">
                   {" "}
                   Equity Offered:
-                  <h2>5%</h2>
+                  <h2>10%</h2>
                 </div>
                 <div class="div3bottoms">
                   {" "}
                   Round:
                   <h2>Pre-seed</h2>
                 </div>
+                <div class="div4bottoms">
+                  {" "}
+                  Industry:
+                  <h2>Food Service</h2>
+                </div>
+                <div class="div5bottoms">
+                  {" "}
+                  Location:
+                  <h2>Quebec,<br></br>Canada</h2>
+                </div>
               </div>
             </div>
             <div class="div2profile">
-              <h3 className="profiletitle">Elevatus Devices </h3>
+              <h3 className="profiletitle">FastestFood </h3>
               <p className="thenameprofile">
                 Posted by Tyler Brousseau Founder at FastestFood
               </p>
@@ -79,10 +89,10 @@ function Businessprofile(props) {
               <div class="parentcharts">
                 <div class="div1charts">
                   <p className="chartnumbersprofile">9</p>
-                  <p>Capital deployment </p>
+                  <p><br></br>Capital </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -96,10 +106,10 @@ function Businessprofile(props) {
                 <div class="div2charts">
                   {" "}
                   <p className="chartnumbersprofile">9</p>
-                  <p>Industry experience </p>
+                  <p>Equity Offering </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -113,10 +123,10 @@ function Businessprofile(props) {
                 <div class="div3charts">
                   {" "}
                   <p className="chartnumbersprofile">6</p>
-                  <p>Time frame </p>
+                  <p><br></br>Round </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -130,10 +140,10 @@ function Businessprofile(props) {
                 <div class="div4charts">
                   {" "}
                   <p className="chartnumbersprofile">8</p>
-                  <p>Experience in Field </p>
+                  <p><br></br>Industry Fit </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -147,10 +157,10 @@ function Businessprofile(props) {
                 <div class="div5charts">
                   {" "}
                   <p className="chartnumbersprofile">6</p>
-                  <p>Educational Background </p>
+                  <p>Time Horizon </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -164,10 +174,10 @@ function Businessprofile(props) {
                 <div class="div6charts">
                   {" "}
                   <p className="chartnumbersprofile">8</p>
-                  <p>Geographical location </p>
+                  <p>Involvement Level </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -180,10 +190,10 @@ function Businessprofile(props) {
                 </div>
                 <div class="div7charts">
                   <p className="chartnumbersprofile">9</p>
-                  <p>Risk tolerance </p>
+                  <p>Location Proximity </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded
@@ -199,7 +209,7 @@ function Businessprofile(props) {
                   <p>Response Time </p>
                   <PieChart
                     className="profilepiechart"
-                    radius={35}
+                    radius={45}
                     lineWidth={21}
                     startAngle={80}
                     rounded

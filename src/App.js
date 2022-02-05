@@ -15,6 +15,7 @@ import POFU8F from "./pages/POFU8F"
 import HIB5FX from "./pages/HIB5FX";
 import FFST6V from "./pages/FFST6V";
 import RUTA5X from "./pages/RUTA5X";
+import Groups from "./pages/Groups";
 
 import "./index.css";
 import Landingpage from "./pages/landing/landing";
@@ -47,6 +48,7 @@ function App() {
           <Route path ="HIB5FX" element ={<HIB5FX/>}/>
           <Route path ="FFST6V" element ={<FFST6V/>}/>
           <Route path ="RUTA5X" element ={<RUTA5X />}/>
+          <Route path ="Groups" element ={<Groups />}/>
 
 
           {/* Using path="*"" means "match anything", so this route

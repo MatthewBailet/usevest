@@ -2,7 +2,7 @@ function Searchbar() {
   return (
     <div className="parent">
       <div className="div1">
-        <input className="SearchBar" placeholder="Search"></input>
+        <input className="SearchBarrr" placeholder="Search"></input>
       </div>
       <div className="div2 parentt">
           <div className='div1t'>

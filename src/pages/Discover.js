@@ -5,7 +5,7 @@ import Searchbar from "../components/Searchbar";
 
 function Discoverpage() {
   return (
-    <div className="PageA">
+    <div className="PageAB">
       <Searchbar/>
       <div className="Setter">
         <div className="parentd">
@@ -117,7 +117,7 @@ function Discoverpage() {
               <Card
               MatchScore="75%"
               Name="FastestFood"
-              Seeking="$400k for 5%"
+              Seeking="$400k for 10%"
               Round="Pre-seed"
               Posted="Tyler Brousseau Founder at Fastest Food"
               pfp={require("./images/Tyler.jpg")}
@@ -141,6 +141,7 @@ function Discoverpage() {
 
           </div>
         </div>
+
       </div>
 
     </div>

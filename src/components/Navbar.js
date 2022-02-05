@@ -55,19 +55,14 @@ function Navbar(props) {
                 </a>
               </Link>
 
-            <Link to="/MapPage">
-              <div className="nav__link collapse">
-                <ion-icon name="map-outline" className="nav__icon" />
-                <span className="nav__name">VestMap</span>
-              </div>
 
-            </Link>
-
-
+              <Link to="/Groups">
               <div className="nav__link collapse">
                 <ion-icon name="people-outline" className="nav__icon" />
                 <span className="nav__name">Groups</span>
               </div>
+              </Link>
+            
               <a href="#" className="nav__link">
                 <ion-icon name="settings-outline" className="nav__icon" />
                 <span className="nav__name">Settings</span>

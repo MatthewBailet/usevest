@@ -366,6 +366,7 @@ span:nth-child(18) {
     width: 80%;
     margin-top: 10px;
     height: 400px;
+    text-align: center;
     }
     
     .div1tt { grid-area: 1 / 1 / 2 / 2; background-color: rgb(238, 238, 238); border-radius: 15px;}
