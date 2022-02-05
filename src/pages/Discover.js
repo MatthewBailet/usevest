@@ -86,7 +86,7 @@ function Discoverpage() {
               <Card
               MatchScore="87%"
               Name="Gymtraq"
-              Seeking="170M for 15%"
+              Seeking="17M for 15%"
               Round="Series B"
               Posted="Isabelle Ullman CCO at Gymtraq"
               pfp={require("./images/Isabelle.jpg")}
@@ -104,7 +104,7 @@ function Discoverpage() {
               <Card
                 MatchScore="77%"
                 Name="Elevatus Devices "
-                Seeking="$30M for 30%%"
+                Seeking="$30M for 30%"
                 Round="Series B"
                 Posted="Jack Powers CFO at Elevatus Devices"
                 pfp={require("./images/Jack.jpg")}
