@@ -62,11 +62,14 @@ function Navbar(props) {
                 <span className="nav__name">Groups</span>
               </div>
               </Link>
-            
-              <a href="#" className="nav__link">
+
+{/*             <Link to="/Settings">
+               <a href="#" className="nav__link">
                 <ion-icon name="settings-outline" className="nav__icon" />
                 <span className="nav__name">Settings</span>
               </a>
+            </Link> */}
+             
             </div>
           </div>
           <a href="/" className="nav__link">
