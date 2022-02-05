@@ -47,7 +47,7 @@ function Businessprofile(props) {
                 <div class="div1bottoms">
                   {" "}
                   Seeking:
-                  <h2>15M</h2>
+                  <h2>8M</h2>
                 </div>
                 <div class="div2bottoms">
                   {" "}

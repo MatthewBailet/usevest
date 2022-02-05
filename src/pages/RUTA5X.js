@@ -51,7 +51,7 @@ function Businessprofile(props) {
                 <div class="div1bottoms">
                   {" "}
                   Seeking:
-                  <h2>10M</h2>
+                  <h2>4M</h2>
                 </div>
                 <div class="div2bottoms">
                   {" "}
@@ -61,7 +61,7 @@ function Businessprofile(props) {
                 <div class="div3bottoms">
                   {" "}
                   Round:
-                  <h2>Series B</h2>
+                  <h2>Series A</h2>
                 </div>
                 <div class="div4bottoms">
                   {" "}

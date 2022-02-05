@@ -48,17 +48,17 @@ function Businessprofile(props) {
                 <div class="div1bottoms">
                   {" "}
                   Seeking:
-                  <h2>50M</h2>
+                  <h2>30M</h2>
                 </div>
                 <div class="div2bottoms">
                   {" "}
                   Equity Offered:
-                  <h2>5%</h2>
+                  <h2>30%</h2>
                 </div>
                 <div class="div3bottoms">
                   {" "}
                   Round:
-                  <h2>Series C</h2>
+                  <h2>Series B</h2>
                 </div>
                 <div class="div4bottoms">
                   {" "}

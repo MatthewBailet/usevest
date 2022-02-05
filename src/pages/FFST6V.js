@@ -55,7 +55,7 @@ function Businessprofile(props) {
                 <div class="div2bottoms">
                   {" "}
                   Equity Offered:
-                  <h2>10%</h2>
+                  <h2>20%</h2>
                 </div>
                 <div class="div3bottoms">
                   {" "}

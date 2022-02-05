@@ -52,12 +52,12 @@ function Businessprofile(props) {
                 <div class="div1bottoms">
                   {" "}
                   Seeking:
-                  <h2>30M</h2>
+                  <h2>17M</h2>
                 </div>
                 <div class="div2bottoms">
                   {" "}
                   Equity Offered:
-                  <h2>5%</h2>
+                  <h2>15%</h2>
                 </div>
                 <div class="div3bottoms">
                   {" "}

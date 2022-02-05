@@ -27,7 +27,7 @@ function Discoverpage() {
               <Card
               MatchScore="94%"
               Name="CarbonRecap "
-              Seeking="$15m for 20%"
+              Seeking="$8m for 20%"
               Round="Series A"
               Posted="Alexa Petrov CCO at CarbonRecap"
               pfp={require("./images/Alexa.png")}
@@ -59,7 +59,7 @@ function Discoverpage() {
               <Card
                 MatchScore="90%"
                 Name="SodiEnergy"
-                Seeking="$2M for 10%"
+                Seeking="$2M for 15%"
                 Round="Seed Round"
                 Posted="Michelle Hartman CEO at SodiEnergy"
                 pfp={require("./images/Michelle.jpg")}
@@ -72,7 +72,7 @@ function Discoverpage() {
               <Card
               MatchScore="89%"
               Name="Tokenz"
-              Seeking="$4M for 5%"
+              Seeking="$4M for 20%"
               Round="Series A"
               Posted="Ryan Folly CEO at Tokenz"
               pfp={require("./images/Ryan.jpg")}
@@ -86,7 +86,7 @@ function Discoverpage() {
               <Card
               MatchScore="87%"
               Name="Gymtraq"
-              Seeking="$30M for 5%"
+              Seeking="170M for 15%"
               Round="Series B"
               Posted="Isabelle Ullman CCO at Gymtraq"
               pfp={require("./images/Isabelle.jpg")}
@@ -104,8 +104,8 @@ function Discoverpage() {
               <Card
                 MatchScore="77%"
                 Name="Elevatus Devices "
-                Seeking="$50M for 5%"
-                Round="Series C"
+                Seeking="$30M for 30%%"
+                Round="Series B"
                 Posted="Jack Powers CFO at Elevatus Devices"
                 pfp={require("./images/Jack.jpg")}
                 background={require("./images/Elevatus.jpg")}
@@ -117,7 +117,7 @@ function Discoverpage() {
               <Card
               MatchScore="75%"
               Name="FastestFood"
-              Seeking="$400k for 10%"
+              Seeking="$400k for 20%"
               Round="Pre-seed"
               Posted="Tyler Brousseau Founder at Fastest Food"
               pfp={require("./images/Tyler.jpg")}
@@ -131,8 +131,8 @@ function Discoverpage() {
               <Card
               MatchScore="72%"
               Name="WellPlayed"
-              Seeking="$10M for 15%"
-              Round="Series B"
+              Seeking="$4M for 15%"
+              Round="Series A"
               Posted="Irene Mays CEO at WellPlayed"
               pfp={require("./images/Irene.jpg")}
               background={require("./images/Wellplayed.jpg")}
